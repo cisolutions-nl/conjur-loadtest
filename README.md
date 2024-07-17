@@ -17,7 +17,7 @@ Usage of the Python `loadtest.py` (or run `python loadtest.py –help`):
 
 Example: 
 ```bash
-python loadtest.py –concurrency 250 –base-url https://conjur.url –user-name test –secret-id test-path --account organizationxyz [–api-key=abc123]
+python loadtest.py --concurrency=250 --base-url=https://conjur.url --user-name=test --secret-id=test-path --account=organizationxyz [–-api-key=abc123]
 ```
 
 Or with short options:
